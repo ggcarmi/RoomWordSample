@@ -8,6 +8,9 @@ import android.arch.persistence.room.ColumnInfo;
 
 /**
  * Created by gaicarmi on 2/9/18.
+ *   this class represent Word Class - Word Table
+ *   it functions as a Java Class and as a table
+ *   we need to define each column and keys
  */
 
 @Entity(tableName = "word_table")
@@ -18,6 +21,7 @@ public class Word {
     @ColumnInfo(name = "word")
     private String mWord;
 
+    // to generate automaticly primary key
 //    @PrimaryKey(autoGenerate = true)
 //    private int id;
 

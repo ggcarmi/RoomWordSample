@@ -7,6 +7,14 @@ import android.content.Context;
 
 /**
  * Created by gaicarmi on 2/10/18.
+ *
+ *  this class represent the database (singelton)
+ *
+ *  Room database: Database layer on top of SQLite database that takes care of mundane tasks
+ *  that you used to handle with an SQLiteOpenHelper. Database holder that serves as an
+ *  access point to the underlying SQLite database. The Room database uses the DAO to issue
+ *  queries to the SQLite database.
+ *
  */
 
 @Database(entities = {Word.class}, version = 1)
